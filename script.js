@@ -86,9 +86,13 @@ if (bookingForm) {
     const message = [
       `Olá, meu nome é ${guestName}.`,
       "Tenho interesse em reservar a Casa Vista Ilhabela.",
-      `📅Dia de ida: ${formatDateToBr(checkinDate)}.`,
-      `📅Dia de volta: ${formatDateToBr(checkoutDate)}.`,
-      `✅Pessoas: ${guestCount} (limite da casa: 10).`,
+
+      ` 🗓️Dia de ida: ${formatDateToBr(checkinDate)}.`,
+
+      ` 🗓️Dia de volta: ${formatDateToBr(checkoutDate)}.`,
+
+      ` 👥Pessoas: ${guestCount} (limite da casa: 10).`,
+      
       "Pode me passar disponibilidade e valores?",
     ].join("\n");
 
