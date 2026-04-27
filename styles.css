@@ -209,7 +209,7 @@ p {
 }
 
 .hero {
-  /* Imagem principal com foco em piscina + vista */
+
   position: relative;
   min-height: 96vh;
   display: grid;
